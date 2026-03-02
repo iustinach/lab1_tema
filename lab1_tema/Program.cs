@@ -35,6 +35,10 @@ namespace TemaAcasa
                 {
                     Console.WriteLine("Salariu mare");
                 }
+                else if (salariu >= 2000)
+                {
+                    Console.WriteLine("Salariu mediu..\r\nAti lucrat prea putine ore pentru a avea un salariu mare!");
+                }
                 else
                 {
                     Console.WriteLine("Salariu mic.\r\nAti lucrat prea putine ore pentru a avea un salariu mare!");
